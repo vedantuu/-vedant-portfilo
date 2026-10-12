@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vedant Unadkat | Personal Portfolio</title>
+<meta name="description" content="Explore the personal portfolio of Vedant Unadkat, a BSc IT Hons student showcasing projects, technical interests, education, and development work.">
+<meta property="og:title" content="Vedant Unadkat | Personal Portfolio">
+<meta property="og:description" content="BSc IT Hons student showcasing projects, technical interests, education, and development work.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23050505'/%3E%3Ctext x='32' y='42' font-size='28' font-family='sans-serif' font-weight='800' fill='%23ff1744' text-anchor='middle'%3EVU%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="intro" role="dialog" aria-label="Intro">
+ <div class="scan"></div>
+ <button class="btn ghost skip" id="skip">Skip intro</button>
+ <div>
+  <div class="mono l" style="animation-delay:.3s">INITIALIZING PERSONAL SYSTEM</div>
+  <div class="bar"><i></i></div><div class="mono term"><div>&gt; loading core modules... OK</div><div>&gt; mounting VU/OS... OK</div><div>&gt; waking VU-bot... OK</div></div>
+  <h1>VEDANT UNADKAT</h1>
+  <p class="l" style="animation-delay:1.9s;color:var(--mut)">BSc IT Hons | Aspiring Developer | Technology Enthusiast</p>
+  <p class="l" style="animation-delay:2.1s;margin:6px 0 26px">Building digital experiences through code, creativity, and technology.</p>
+  <div class="l cta" style="animation-delay:2.3s;justify-content:center">
+   <a class="btn" href="#desktop" data-enter>Enter my world</a>
+   <a class="btn ghost" href="#projects" data-enter>Explore projects</a>
+  </div>
+ </div>
+</div>
+
+<canvas id="fx" aria-hidden="true"></canvas><div id="prog"></div><div id="cur" aria-hidden="true"></div>
+<nav id="nav">
+ <a class="logo" href="#home">VU</a>
+ <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">☰</button>
+ <div class="links" id="links">
+  <a href="#home">Home</a><a href="#story">About</a><a href="#desktop">Desktop</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a>
+ </div>
+</nav>
+
+<main>
+<section id="home">
+ <div class="grid"></div>
+ <div style="position:relative">
+  <div class="mono">WELCOME TO MY DIGITAL WORLD</div>
+  <h1 class="glitch" data-t="I'm Vedant Unadkat.">I'm Vedant Unadkat.</h1>
+  <div class="role" id="role" aria-live="off"></div>
+  <p>I'm a BSc IT Hons student who likes learning how software works and building projects to put that learning to use.</p>
+  <div class="cta"><a class="btn" href="#projects">Explore my work</a><a class="btn ghost" href="#contact">Connect with me</a></div>
+ </div>
+ <div class="stage" aria-hidden="true"><svg class="dev" viewBox="0 0 320 300"><circle cx="160" cy="150" r="125" fill="#ff17441a"/><g class="fl" font-family="Consolas,monospace"><text x="22" y="70" fill="#ff304f" font-size="22">&lt;/&gt;</text><text x="255" y="95" fill="#FFE2A8" font-size="22" opacity=".7">{ }</text><text x="256" y="190" fill="#ff304f" font-size="20">;</text><text x="30" y="170" fill="#FFE2A8" font-size="18" opacity=".6">01</text></g><path d="M95 140Q160 85 225 140V160H95Z" fill="#0B0B0F" stroke="#ff1744"/><path d="M122 80Q122 36 160 36Q198 36 198 80V102Q160 120 122 102Z" fill="#0B0B0F" stroke="#ff1744" stroke-width="2"/><ellipse cx="160" cy="86" rx="28" ry="23" fill="#050505"/><rect class="eye" x="146" y="82" width="9" height="6" fill="#ff304f"/><rect class="eye" x="165" y="82" width="9" height="6" fill="#ff304f"/><rect x="90" y="140" width="140" height="62" fill="#0B0B0F" stroke="#ff1744" stroke-width="2"/><rect class="cl" x="102" y="150" width="90" height="6"/><rect class="cl" style="animation-delay:-.6s" x="102" y="163" width="60" height="6"/><rect class="cl" style="animation-delay:-1.1s" x="102" y="176" width="108" height="6"/><rect class="cl" style="animation-delay:-1.6s" x="102" y="189" width="40" height="6"/><path d="M70 202H250L262 218H58Z" fill="#14141a" stroke="#ff1744"/><circle class="hand" cx="130" cy="210" r="6" fill="#FFE2A8"/><circle class="hand b" cx="190" cy="210" r="6" fill="#FFE2A8"/></svg><div class="cube" id="cube"><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+</section>
+
+<div class="mq" aria-hidden="true"><div id="mq"></div></div>
+<section id="desktop">
+ <div class="grid"></div>
+ <div style="position:relative">
+  <div class="mono">VU/OS — open an app</div>
+  <h2>Boot up my desktop.</h2>
+  <div class="os" id="os">
+   <div class="top"><span class="mono">VU/OS 1.0</span><span class="mono" id="clock"></span></div>
+   <div class="icons" id="icons"></div>
+   <div class="dock" id="dock" aria-label="Open windows"></div>
+  </div>
+ </div>
+</section>
+
+<section id="story" class="story">
+ <div class="mono">Chapter 1 — My story</div>
+ <h2 class="rv">The person behind the code.</h2>
+ <p class="rv">I'm a BSc IT Hons student  interested in technology and software development. I learn best by building, so I'm putting my projects and skills in one place that grows as I do.</p>
+</section>
+
+<section id="skills">
+ <div class="mono">Chapter 2 — My skills</div>
+ <h2 class="rv">Tools of my digital craft.</h2>
+ <p class="note" style="margin-top:20px">Placeholder categories. Edit the SKILLS list in the script with the skills you actually have.</p>
+ <div class="cards" id="skillCards"></div>
+</section>
+
+<section id="projects">
+ <div class="mono">Chapter 3 — Featured projects</div>
+ <h2 class="rv">Ideas turned into projects.</h2>
+ <p class="note" style="margin-top:20px">Example entries. Replace them in the PROJECTS list with your real work.</p>
+ <div class="cards" id="projCards"></div>
+</section>
+
+<section id="education">
+ <div class="mono">Chapter 4 — Education</div>
+ <h2 class="rv">My learning journey.</h2>
+ <div class="tl rv">
+  <div><h3>BSc IT Hons</h3><p style="color:var(--mut)"></p></div>
+  <div><h3>Institution</h3><p style="color:var(--mut)"><div parul="" university="" vadodara="" gujrat=""></div></p></div>
+ </div>
+</section>
+
+<section id="beyond">
+ <div class="grid"></div>
+ <div style="position:relative">
+  <div class="mono">Chapter 5 — Beyond the screen</div>
+  <h2 class="rv">Always exploring what's next.</h2>
+  <p class="rv" style="max-width:56ch;color:var(--mut);margin-top:24px;font-size:1.15rem">I want to keep learning new technologies, solve real problems, and turn ideas into useful projects.</p>
+ </div>
+</section>
+
+<section id="contact">
+ <div class="portal"></div>
+ <div class="mono" style="position:relative">Chapter 6 — Contact</div>
+ <h2 class="rv">Let's build something great.</h2>
+ <p style="color:var(--mut);position:relative;margin-top:18px">Open to internships and opportunities. Say hello.</p>
+ <div class="cta" id="contactBtns"></div>
+</section>
+</main>
+<footer class="mono">© <span id="yr"></span> Vedant Unadkat. All rights reserved.</footer>
+<button id="bot" aria-label="VU-bot mascot: click for a tip"><svg viewBox="0 0 100 120"><line x1="50" y1="6" x2="50" y2="20" stroke="#ff1744" stroke-width="3"/><circle class="ant" cx="50" cy="6" r="5" fill="#ff1744"/><rect x="18" y="20" width="64" height="46" rx="12" fill="#0B0B0F" stroke="#ff1744" stroke-width="3"/><rect x="26" y="30" width="48" height="26" rx="8" fill="#050505"/><circle cx="39" cy="43" r="8" fill="#FFE2A8"/><circle cx="61" cy="43" r="8" fill="#FFE2A8"/><circle class="pp" cx="39" cy="43" r="4" fill="#ff1744"/><circle class="pp" cx="61" cy="43" r="4" fill="#ff1744"/><rect x="28" y="72" width="44" height="36" rx="8" fill="#0B0B0F" stroke="#ff1744" stroke-width="3"/><text x="50" y="96" text-anchor="middle" font-family="Impact,sans-serif" font-size="16" fill="#ff1744">VU</text><rect class="arm" x="76" y="74" width="10" height="28" rx="5" fill="#ff1744"/><rect x="14" y="74" width="10" height="28" rx="5" fill="#ff1744"/></svg></button>
+<div id="bub" role="status" aria-live="polite"></div>
+<button id="top" aria-label="Back to top">↑</button>
+<dialog id="dlg"><div id="dlgBody"></div><div style="margin-top:20px"><button class="btn" id="dlgClose">Close</button></div></dialog>
+
+<script src="js/main.js"></script>
+</body>
+</html>
